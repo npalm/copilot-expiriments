@@ -1,0 +1,41 @@
+{
+  "name": "react-github-repos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "vitest",
+    "e2e": "playwright test",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^latest",
+    "react": "^latest",
+    "react-dom": "^latest"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/react": "^latest",
+    "@types/react-dom": "^latest",
+    "eslint": "^latest",
+    "playwright": "^latest",
+    "prettier": "^latest",
+    "react-scripts": "^latest",
+    "typescript": "^latest",
+    "vitest": "^latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
